@@ -1,0 +1,16 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "Modern, offline-capable currency converter with live rates, history charts and PT/EN interface.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  },
+  "license": "MIT"
+}
