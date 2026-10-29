@@ -1,0 +1,20 @@
+{
+  "name": "Currency Converter",
+  "short_name": "Converter",
+  "description": "Live exchange rates for 160+ currencies, including MZN, USD, ZAR and EUR. Works offline.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f1e8",
+  "theme_color": "#0b6b4f",
+  "lang": "en",
+  "categories": ["finance", "utilities"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
