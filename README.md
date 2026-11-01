@@ -133,6 +133,10 @@ One-time setup: in the repository go to **Settings → Pages → Build and deplo
 
 When you change any app file, bump `VERSION` in `sw.js` so returning visitors get the update.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the architecture, data sources and rules for changes.
+
 ## Adding a language
 
 Add a new block to `STRINGS` in `js/i18n.js`, register its locale in `LOCALES`, and add a button with `data-lang` in the header. Currency and country names are translated automatically by the browser's `Intl.DisplayNames`.
